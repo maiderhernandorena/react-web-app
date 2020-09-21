@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image Component Snapshots Should render with default size 1`] = `
+<img
+  height="100"
+  src="https://www.pngkit.com/png/full/115-1150342_user-avatar-icon-iconos-de-mujeres-a-color.png"
+  width="100"
+/>
+`;
+
+exports[`Image Component Snapshots Should render with only specific height 1`] = `
+<img
+  height="200"
+  src="https://www.pngkit.com/png/full/115-1150342_user-avatar-icon-iconos-de-mujeres-a-color.png"
+/>
+`;
+
+exports[`Image Component Snapshots Should render with only specific with 1`] = `
+<img
+  src="https://www.pngkit.com/png/full/115-1150342_user-avatar-icon-iconos-de-mujeres-a-color.png"
+  width="200"
+/>
+`;
+
+exports[`Image Component Snapshots Should render with specific size 1`] = `
+<img
+  height="200"
+  src="https://www.pngkit.com/png/full/115-1150342_user-avatar-icon-iconos-de-mujeres-a-color.png"
+  width="200"
+/>
+`;

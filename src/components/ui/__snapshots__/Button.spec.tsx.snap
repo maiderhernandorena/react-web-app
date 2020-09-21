@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Component Snapshots Should render correctly with no children 1`] = `
+<button
+  onClick={[MockFunction]}
+>
+  <Text
+    message="Press me"
+    type="p"
+  />
+</button>
+`;
+
+exports[`Button Component Snapshots Should render correctly with no label 1`] = `
+<button
+  onClick={[MockFunction]}
+>
+  <p>
+    Any children
+  </p>
+</button>
+`;
+
+exports[`Button Component Snapshots Should return null with no label and chidlren 1`] = `null`;

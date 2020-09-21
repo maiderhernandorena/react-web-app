@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Date Component Snapshots Should render correctly with string format 1`] = `
+<p
+  className="App-date"
+>
+  2020-10-19
+</p>
+`;
+
+exports[`Date Component Snapshots Should render correctly with string format 2`] = `
+<p
+  className="App-date"
+>
+  2020-10-19T00:00:00.000Z
+</p>
+`;

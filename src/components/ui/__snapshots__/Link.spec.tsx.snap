@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link Component Snapshots Should render with link and message 1`] = `
+<a
+  className="App-link"
+  href="google.com"
+>
+  message
+</a>
+`;
+
+exports[`Link Component Snapshots Should render with only link 1`] = `
+<a
+  className="App-link"
+  href="google.com"
+>
+  google.com
+</a>
+`;

@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text Component Snapshots Should render link type text 1`] = `
+<Link
+  link="google.com"
+  message="message"
+/>
+`;
+
+exports[`Text Component Snapshots Should render normal text 1`] = `
+<p>
+  message
+</p>
+`;
+
+exports[`Text Component Snapshots Should render title type text 1`] = `
+<h1>
+  message
+</h1>
+`;
+
+exports[`Text Component Snapshots Should render title type text 2`] = `
+<h4>
+  message
+</h4>
+`;
