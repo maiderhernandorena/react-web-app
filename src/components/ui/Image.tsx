@@ -1,18 +1,18 @@
 import React from 'react';
 
-type ImageLayout = {
-  width?: string
-  height?: string
-}
+import { Layout } from '../../types'
 
 type ImageProps = {
-  source: string,
-  layout?: ImageLayout
+  source: string | number;
+  layout?: Layout
 }
 
 const Image: React.FC<ImageProps> = ({ source, layout }) => {
+  // convert source to string on url constant
+  const url = source  as string
+
   return (
-        <img alt='img' src={source} width={layout?.width} height={layout?.height}/>
+        <img alt='img' src={url} width={layout?.width} height={layout?.height}/>
   );
 }
 

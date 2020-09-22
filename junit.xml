@@ -1,45 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="16" failures="0" time="1.19">
-  <testsuite name="Date Component" errors="0" failures="0" skipped="0" timestamp="2020-09-22T16:11:09" time="0.707" tests="3">
-    <testcase classname="Date Component Validate props Should render correctly with string format" name="Date Component Validate props Should render correctly with string format" time="0.009">
+<testsuites name="jest tests" tests="16" failures="0" time="3.23">
+  <testsuite name="Text Component" errors="0" failures="0" skipped="0" timestamp="2020-09-22T18:37:03" time="0.891" tests="4">
+    <testcase classname="Text Component Snapshots Should render normal text" name="Text Component Snapshots Should render normal text" time="0.005">
+    </testcase>
+    <testcase classname="Text Component Snapshots Should render title type text" name="Text Component Snapshots Should render title type text" time="0.001">
+    </testcase>
+    <testcase classname="Text Component Snapshots Should render title type text" name="Text Component Snapshots Should render title type text" time="0">
+    </testcase>
+    <testcase classname="Text Component Snapshots Should render link type text" name="Text Component Snapshots Should render link type text" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="Link Component" errors="0" failures="0" skipped="0" timestamp="2020-09-22T18:37:03" time="0.903" tests="2">
+    <testcase classname="Link Component Snapshots Should render with only link" name="Link Component Snapshots Should render with only link" time="0.005">
+    </testcase>
+    <testcase classname="Link Component Snapshots Should render with link and message" name="Link Component Snapshots Should render with link and message" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="Date Component" errors="0" failures="0" skipped="0" timestamp="2020-09-22T18:37:03" time="0.925" tests="3">
+    <testcase classname="Date Component Validate props Should render correctly with string format" name="Date Component Validate props Should render correctly with string format" time="0.011">
     </testcase>
     <testcase classname="Date Component Snapshots Should render correctly with string format" name="Date Component Snapshots Should render correctly with string format" time="0.002">
     </testcase>
     <testcase classname="Date Component Snapshots Should render correctly with string format" name="Date Component Snapshots Should render correctly with string format" time="0.001">
     </testcase>
   </testsuite>
-  <testsuite name="Button Component" errors="0" failures="0" skipped="0" timestamp="2020-09-22T16:11:10" time="0.089" tests="3">
-    <testcase classname="Button Component Snapshots Should render correctly with no label" name="Button Component Snapshots Should render correctly with no label" time="0.001">
+  <testsuite name="Image Component" errors="0" failures="0" skipped="0" timestamp="2020-09-22T18:37:03" time="2.631" tests="4">
+    <testcase classname="Image Component Snapshots Should render with default size" name="Image Component Snapshots Should render with default size" time="0.005">
     </testcase>
-    <testcase classname="Button Component Snapshots Should render correctly with no children" name="Button Component Snapshots Should render correctly with no children" time="0.001">
+    <testcase classname="Image Component Snapshots Should render with specific size" name="Image Component Snapshots Should render with specific size" time="0.001">
     </testcase>
-    <testcase classname="Button Component Snapshots Should return null with no label and chidlren" name="Button Component Snapshots Should return null with no label and chidlren" time="0">
-    </testcase>
-  </testsuite>
-  <testsuite name="Link Component" errors="0" failures="0" skipped="0" timestamp="2020-09-22T16:11:10" time="0.078" tests="2">
-    <testcase classname="Link Component Snapshots Should render with only link" name="Link Component Snapshots Should render with only link" time="0">
-    </testcase>
-    <testcase classname="Link Component Snapshots Should render with link and message" name="Link Component Snapshots Should render with link and message" time="0">
-    </testcase>
-  </testsuite>
-  <testsuite name="Image Component" errors="0" failures="0" skipped="0" timestamp="2020-09-22T16:11:10" time="0.083" tests="4">
-    <testcase classname="Image Component Snapshots Should render with default size" name="Image Component Snapshots Should render with default size" time="0.001">
-    </testcase>
-    <testcase classname="Image Component Snapshots Should render with specific size" name="Image Component Snapshots Should render with specific size" time="0">
-    </testcase>
-    <testcase classname="Image Component Snapshots Should render with only specific with" name="Image Component Snapshots Should render with only specific with" time="0.001">
+    <testcase classname="Image Component Snapshots Should render with only specific with" name="Image Component Snapshots Should render with only specific with" time="0">
     </testcase>
     <testcase classname="Image Component Snapshots Should render with only specific height" name="Image Component Snapshots Should render with only specific height" time="0">
     </testcase>
   </testsuite>
-  <testsuite name="Text Component" errors="0" failures="0" skipped="0" timestamp="2020-09-22T16:11:10" time="0.081" tests="4">
-    <testcase classname="Text Component Snapshots Should render normal text" name="Text Component Snapshots Should render normal text" time="0.001">
+  <testsuite name="Button Component" errors="0" failures="0" skipped="0" timestamp="2020-09-22T18:37:03" time="2.708" tests="3">
+    <testcase classname="Button Component Snapshots Should render correctly with no label" name="Button Component Snapshots Should render correctly with no label" time="0.005">
     </testcase>
-    <testcase classname="Text Component Snapshots Should render title type text" name="Text Component Snapshots Should render title type text" time="0.001">
+    <testcase classname="Button Component Snapshots Should render correctly with no children" name="Button Component Snapshots Should render correctly with no children" time="0.001">
     </testcase>
-    <testcase classname="Text Component Snapshots Should render title type text" name="Text Component Snapshots Should render title type text" time="0">
-    </testcase>
-    <testcase classname="Text Component Snapshots Should render link type text" name="Text Component Snapshots Should render link type text" time="0">
+    <testcase classname="Button Component Snapshots Should return null with no label and chidlren" name="Button Component Snapshots Should return null with no label and chidlren" time="0.001">
     </testcase>
   </testsuite>
 </testsuites>

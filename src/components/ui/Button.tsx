@@ -1,22 +1,30 @@
-import React from 'react';
-import Text from './Text'
+import React, { useState, useEffect } from 'react';
 
 type ButtonProps = {
-  onPress: () => void
-  label?: string
+  label: string
 }
 
-const Button: React.FC<ButtonProps> = ({ label, onPress, children }) => {
-  if (!children && !label) {
-    return null
-  }
+const Button: React.FC<ButtonProps> = ({ label }) => {
+  const [loading, setLoading] = useState<null | boolean>(null)
+
+  useEffect(() => {
+    const _timeout = setTimeout(() => setLoading(!loading), 10000)
+
+    return (): void => {
+      clearTimeout((_timeout as unknown) as number)
+    }
+  }, [loading])
 
   return (
-        <button onClick={onPress}>
-          {label && <Text message={label} />}
-          {children}
+        <button 
+          onClick={(): void => {
+            setLoading(!loading)
+          }}
+        >
+         {loading ? <p>loading</p> : <p>{label}</p>}
         </button>
   );
 }
+
 
 export default Button;

@@ -2,6 +2,7 @@ import React from 'react';
 
 import Text from './ui/Text'
 import Date from './ui/Date'
+import Button from './ui/Button'
 import { getDateString } from '../utils/Date'
 
 const Body = (): React.ReactElement => {
@@ -16,6 +17,7 @@ const Body = (): React.ReactElement => {
             quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
           />
           <Date date={date}/>
+          <Button label='Hola!'/>
         </div>
   );
 }

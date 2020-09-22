@@ -1,8 +1,7 @@
 import React from 'react';
-import Renderer, { act } from 'react-test-renderer';
 import ShallowRenderer from 'react-test-renderer/shallow';
 
-import Button from './Button';
+import Button from './ClassButton';
 
 describe('Button Component', () => {
 
