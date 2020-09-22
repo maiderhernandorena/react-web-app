@@ -12,7 +12,7 @@ type ImageProps = {
 
 const Image: React.FC<ImageProps> = ({ source, layout }) => {
   return (
-        <img src={source} width={layout?.width} height={layout?.height}/>
+        <img alt='img' src={source} width={layout?.width} height={layout?.height}/>
   );
 }
 
